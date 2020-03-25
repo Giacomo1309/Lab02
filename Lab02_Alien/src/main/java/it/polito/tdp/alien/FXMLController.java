@@ -3,6 +3,7 @@ package it.polito.tdp.alien;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import it.polito.tdp.alien.model.Dizionario;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -37,4 +38,9 @@ public class FXMLController {
     void initialize() {
 
     }
+
+
+	public void setModel(Dizionario dizionario) {
+		
+	}
 }
