@@ -9,7 +9,7 @@ import java.util.*;
  *
  */
 public class Dizionario {
-
+	private List<Word> lista2 = new LinkedList<Word>();
 	private List<Word> lista = new LinkedList<Word>();
 
 	public void addWord(Word nuova) {
@@ -25,7 +25,7 @@ public class Dizionario {
 		if (this.giaPresente(prova))
 			return this.cercaParola(prova).getTraduzione();
 		else
-			return null;
+			return null; //ciao
 	}
 
 	public boolean giaPresente(Word nuova) {
